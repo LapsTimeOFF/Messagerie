@@ -1,0 +1,23 @@
+{
+  "name": "messagerie",
+  "version": "0.0.0-alpha0",
+  "description": "La messagerie pour discuter entre ami française !",
+  "main": "main.js",
+  "scripts": {
+    "run": "node main.js",
+    "test": "npm run dev",
+    "dev": "nodemon",
+    "gitpush": "gaa && gcm \"Mise à jour auto\" && gpsh",
+    "gitpull": "gp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LapsTimeOFF/Messagerie.git"
+  },
+  "author": "Quentin MASSOT",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/LapsTimeOFF/Messagerie/issues"
+  },
+  "homepage": "https://github.com/LapsTimeOFF/Messagerie#readme"
+}
