@@ -19,6 +19,7 @@
   "bugs": {
     "url": "https://github.com/LapsTimeOFF/Messagerie/issues"
   },
+  "esversion": 6,
   "homepage": "https://github.com/LapsTimeOFF/Messagerie#readme",
   "dependencies": {
     "chalk": "4.1.2",
