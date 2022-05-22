@@ -1,2 +1,2 @@
 const app = require('express')();
-const chalk = require('chalk')
+const chalk = require('chalk');
