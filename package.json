@@ -19,5 +19,12 @@
   "bugs": {
     "url": "https://github.com/LapsTimeOFF/Messagerie/issues"
   },
-  "homepage": "https://github.com/LapsTimeOFF/Messagerie#readme"
+  "homepage": "https://github.com/LapsTimeOFF/Messagerie#readme",
+  "dependencies": {
+    "chalk": "^5.0.1",
+    "express": "^4.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  }
 }
