@@ -1,6 +1,6 @@
 {
   "name": "messagerie",
-  "version": "0.0.0-alpha0",
+  "version": "0.0.0-build0",
   "description": "La messagerie pour discuter entre ami française !",
   "main": "main.js",
   "scripts": {
