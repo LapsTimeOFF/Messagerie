@@ -1,6 +1,6 @@
 {
   "name": "messagerie",
-  "version": "0.0.0-build0",
+  "version": "0.0.0-alpha0",
   "description": "La messagerie pour discuter entre ami française !",
   "main": "main.js",
   "scripts": {
@@ -22,9 +22,8 @@
   "homepage": "https://github.com/LapsTimeOFF/Messagerie#readme",
   "dependencies": {
     "chalk": "4.1.2",
-    "express": "^4.18.1"
-  },
-  "devDependencies": {
-    "nodemon": "^2.0.16"
+    "express": "^4.18.1",
+    "fs": "^0.0.1-security",
+    "mysql": "^2.18.1"
   }
 }

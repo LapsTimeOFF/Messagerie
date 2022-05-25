@@ -1,0 +1,36 @@
+_id: spc_b841318fca6b4aa584c4ced645cd37da
+type: ApiSpec
+parentId: wrk_fd5fd1a0141b4c0eb239732fce1facea
+modified: 1653240548909
+created: 1653234737331
+fileName: API Design
+contents: |-
+  openapi: 3.0.0
+  info:
+    description: "La messagerie pour discuter entre ami française !"
+    version: 0.0.0-build0
+    title: "Messagerie"
+    contact:
+      email: quentinloulou31@gamil.com
+    license:
+      name: Apache 2.0
+      url: http://www.apache.org/licenses/LICENSE-2.0.html
+  tags:
+    - name: info
+      description: "Toutes les infos requise"
+  paths:
+    /info:
+      get:
+        tags:
+          - info
+        summary: Obtenez l'état de l'api en direct
+        responses:
+          "200":
+            description: Tous va bien
+          "500":
+            description: Erreur interne
+          "504":
+            description: Module sans réponses
+  servers:
+    - url: http://localhost:3300/api/v1
+contentType: yaml

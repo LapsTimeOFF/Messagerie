@@ -1,0 +1,10 @@
+_id: fld_wrk_fd5fd1a0141b4c0eb239732fce1facea59bd0a3f
+type: RequestGroup
+parentId: wrk_fd5fd1a0141b4c0eb239732fce1facea
+modified: 1653240544299
+created: 1653240544299
+name: info
+description: Toutes les infos requise
+environment: {}
+environmentPropertyOrder: null
+metaSortKey: -1653240544299

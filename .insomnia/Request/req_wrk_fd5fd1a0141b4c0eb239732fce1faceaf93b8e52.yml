@@ -1,0 +1,21 @@
+_id: req_wrk_fd5fd1a0141b4c0eb239732fce1faceaf93b8e52
+type: Request
+parentId: fld_wrk_fd5fd1a0141b4c0eb239732fce1facea59bd0a3f
+modified: 1653240544296
+created: 1653240544296
+url: "{{ base_url }}/info"
+name: Obtenez l'état de l'api en direct
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1653240544296
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
