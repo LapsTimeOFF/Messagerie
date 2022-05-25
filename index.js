@@ -1,10 +1,10 @@
 const app = require('express')();
 const chalk = require('chalk');
-const mysql = require('mysql')
+const mysql = require('mysql');
 
 log = console.log;
 
-var statusMySQL = false
+var statusMySQL = false;
 
 var connection = mysql.createConnection({
     host     : 'localhost',
