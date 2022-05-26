@@ -4,6 +4,10 @@ const mysql = require('mysql');
 
 log = console.log;
 
+const MAINTENANCE = [
+    "/api/v1/user/info"
+];
+
 var statusMySQL = false;
 
 var connection = mysql.createConnection({
@@ -45,10 +49,24 @@ app.get('/api/v1/info', (_,res) => {
 
 app.get('/api/v1/user/info', (req, res) => {
     var headers = req.headers;
-    log(headers);
+    // log(headers.token);
 
-    res.statusCode = 409;
-    res.send("Enable to get suite to your request for MAINTENANCE.");
+    if(MAINTENANCE.includes("/api/v1/user/info")) {
+        if(headers.skip503 !== "yes") {
+            res.statusCode = 503;
+            res.send("Enable to get suite to your request for MAINTENANCE.");
+            return;
+        };
+    };
+
+    if(!headers.token) {
+        res.statusCode = 401;
+        res.send("Enable to get suite to your request for 401 User not authentificated.");
+        return;
+    };
+
+    
+
 });
 
 
